@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="banner" id="sec">
+        <header>
+            <a href="#" class="logo">lOgO</a>
+            <div id="toggle" onclick="toggle()"></div>
+        </header>
+        <div class="content">
+            <h2>Hola Mundo!, Yo soy Jefferson Masis</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus odit atque facilis ipsam? Non possimus
+                adipisci deleniti delectus error provident, aspernatur fugit quam quis ipsam, modi commodi ducimus
+                distinctio eligendi.
+                A database is an organized collection of structured information, or data, typically
+                stored electronically in a computer system. A database is usually controlled by a database management
+                system (DBMS). Together, the data and the DBMS, along with the applications that are associated with
+                them, are referred to as a database system, often shortened to just database.
+                Data within the most common types of databases in operation today is typically modeled in rows and
+                columns in a series of tables to make processing and data querying efficient. The data can then be
+                easily accessed, managed, modified, updated, controlled, and organized. Most databases use structured
+                query language (SQL) for writing and querying data.
+                Databases have evolved dramatically since their inception in the early 1960s. Navigational databases
+                such as the hierarchical database (which relied on a tree-like model and allowed only a one-to-many
+                relationship), and the network database (a more flexible model that allowed multiple relationships),
+                were the original systems used to store and manipulate data. Although simple, these early systems
+                were inflexible. In the 1980s, relational databases became popular, followed by object-oriented
+                databases in the 1990s.</p>
+            <a href="#">Conóceme..</a>
+        </div>
+        <ul class="redes">
+            <li><a href="#"><img src="content/images/facebook.png" alt="icono red social"></a></li>
+            <li><a href="#"><img src="content/images/twitter.png" alt="icono red social"></a></li>
+            <li><a href="#"><img src="content/images/linkedin.png" alt="icono red social"></a></li>
+            <li><a href="index.html"><img src="content/images/image9.png" alt="icono red social"></a></li>
+        </ul>
+        
+        
+
+    </section>
+    <nav id="navigation">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca de mí</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Portafolio</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+<script type="text/javascript">
+    function toggle(){
+        var seccion = document.getElementById("sec")
+        var nav = document.getElementById("navigation")
+        seccion.classList.toggle('active')
+        nav.classList.toggle('active')
+    }
+</script>
+
+<footer class="footer">
+    <p class="footer__texto">Practica <span>Junio 16</span> </p>
+</footer>
+
+</body>
+
+
+</html>
